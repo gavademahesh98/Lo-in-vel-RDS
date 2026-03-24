@@ -3,7 +3,7 @@ pipeline{
 		agent any
 		environment{
 		
-			DOCKERIMG="maheshg98/login-app-RDS:{BUILD_NUMBER}"
+			DOCKERIMG="maheshg98/login-app-rds:${BUILD_NUMBER}"
 		}
 		
 		stages{
