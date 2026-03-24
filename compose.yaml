@@ -1,0 +1,5 @@
+services:
+  web:
+    image: ${DOCKERIMG}
+    ports:
+      - '4545:8080'
